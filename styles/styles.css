@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Bebas Neue;
+    src: url('http://fonts.googleapis.com/css?family=Bebas+Neue');
+}
+
+@font-face {
+    font-family: Clicker Script;
+    src: url('http://fonts.googleapis.com/css?family=Clicker+Script');
+}
+
+footer {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    color: #6b5291;
+    font-size: 16px;
+    background-color: #f4ecf4;
+}
+
+hr{
+    border:none;
+    height:20px;
+    width:90%;
+    height:50px;
+    margin-top:0;
+    border-bottom:1px solid #6b5291;
+	box-shadow: 0 20px 20px -20px #d9bed9;
+    margin: -50px auto 10px; 
+    padding-top:20px;
+}
+
+#bebasNeue {
+    font-family: 'Bebas Neue';
+    font-size: 68px;
+    color: #6b5291;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+#clickerScript {
+    font-family: 'Clicker Script';
+    font-size: 64px;
+    color: #362c5f;
+}
+
+.keskita {
+    text-align: center;
+}
+
+.navbar-light {
+    font-size: 20px;
+    background-color: #e9dae9;
+}
+
+a.nav-link {
+    color: #6b5291 !important;
+    text-decoration: none !important;
+}
+
+a.nav-link:hover {
+    color: #362c5f !important;
+    background-color: #d9bed9 !important;
+}
+
+a.nav-link:active {
+    color: #362c5f !important;
+    background-color: #dec7de !important;
+}
+
+a.iso {
+    text-decoration: none !important;
+}
+
+a.iso:hover {
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+.tausta {
+    background: url(img/juustokakku_bg2.jpg) no-repeat center center;
+    opacity: 0.8;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 350px;
+}
+
+.palaute {
+    font-size:13px;
+    font-style:italic;
+    color:#6b5291;
+    line-height: 1.8em;
+}
+
+.palautteenantaja {
+    font-style:normal;
+    padding-left:5%;
+    color:#362c5f;
+}
+
+input,
+select {
+    padding: 3px;
+    border: 1px solid #362c5f;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type=checkbox] {
+    border: 1px solid #362c5f;
+    width:5%;
+}
+
+input:focus {
+    background-color: #e6ddd6;
+}
+
+textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #362c5f;
+    border-radius: 5px;
+}
+
+.tuote {
+    opacity:65%;
+    border:1px solid #362c5f;
+}
+.tuotekuvat {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.tuotekuvat img {
+  width: 100%;
+  height: auto;
+}
+
+.tuotekuvat .btn2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f4ecf4;
+  color: #6b5291;
+  font-size: 32px;
+  font-family: 'Bebas Neue';
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border:1px solid #362c5f;
+  text-align: center;
+}
+.divrow {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.divrow:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+  }
+  
+.divcell {
+    padding-right:20px;
+    text-align: center;
+    vertical-align: top;
+    float: left;
+    width: 28%;
+  }
+
+/* Style all font awesome icons */
+.fa {
+    padding: 17px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #362c5f;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #362c5f;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #362c5f;
+    color: white;
+  }
+
+  .index {
+    font-size:20px;
+  }
+
+/* 
+#3a3153 - tosi tumma violetti
+#5f43b2 - kirkas violetti
+#b1aebb - harmaa liilahtava
+#e6ddd6 - "pearl bush"
+#918983 - harmaanruskea
+#fefdfd - "soft peach" */
