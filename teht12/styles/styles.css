@@ -3,10 +3,7 @@
     src: url('//fonts.googleapis.com/css?family=Bebas+Neue');
 }
 
-@font-face {
-    font-family: Clicker Script;
-    src: url('//fonts.googleapis.com/css?family=Clicker+Script');
-}
+@import-url(//fonts.googleapis.com/css?family=Clicker+Script);
 
 footer {
     position: absolute;
@@ -30,7 +27,7 @@ hr{
 }
 
 #bebasNeue {
-    font-family: 'Bebas Neue';
+    font-family: Bebas Neue;
     font-size: 68px;
     color: #6b5291;
     text-decoration: none !important;
@@ -38,7 +35,7 @@ hr{
 }
 
 #clickerScript {
-    font-family: 'Clicker Script';
+    font-family: Clicker Script;
     font-size: 64px;
     color: #362c5f;
 }
